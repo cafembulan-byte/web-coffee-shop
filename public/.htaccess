@@ -1,0 +1,7 @@
+Options -Indexes
+
+SetEnv SUMMIT_PRIVATE_ROOT /home/CPANEL_USERNAME/hiking-private
+
+<FilesMatch "^(app-config\.php|\.env)$">
+    Require all denied
+</FilesMatch>
